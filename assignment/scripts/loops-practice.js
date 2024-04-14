@@ -41,7 +41,7 @@ for (let i=2; i<11; i+=2){
 
 console.log('STRETCH: countdown from 5 to 0');
 
-for (let i = 6; i--;){
+for (let i = 6; i>=0, i--;){
   console.log(i);
 }
 
@@ -65,11 +65,7 @@ console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 // console.log('Some stars using while:');
-// let zero = 0
-// while(zero>2){
-//   console.log('nothing');
-// }
-//   console.log(stars);
+
 
 let zero = 0 
 while(zero < stars.length){
@@ -87,13 +83,12 @@ while(z < 6){
   console.log(z);
   z++;
 }
-// // console.log(zero);
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
 
-let endNum= 10
-while(endNum >= 5){
-  console.log(endNum);
-  endNum--;
+let ten = 10
+while(ten >= 5){
+  console.log(ten);
+  ten--;
 }
